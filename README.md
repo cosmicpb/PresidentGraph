@@ -10,6 +10,8 @@ Existem algumas premissas para esse projeto:
 2. No gráfico temos o Candidato 1 (em azul) e o Candidato 2 (em vermelho). As primeiras zonas a serem contabilizadas foram as do Sul e as últimas do Nordeste, portanto com alta taxa para o Cand1 no início e alta taxa para o Cand2 no final.
 3. Para cada candidato foram criadas duas arrays com médias representando o valor final de votação:
     * Primeira Array: Aleatória Ordenada (Decrescente para o Cand1 e Crescente para o Cand2);
+    ![alt text](https://github.com/cosmicpb/PresidentGraph/blob/main/img/code.png?raw=true)
+    ![alt text](https://github.com/cosmicpb/PresidentGraph/blob/main/img/mediacands.png?raw=true)
     * Segunda Array: Aleatória
 4. Para cada candidato foi criada também uma terceira array, em que os valores das outras duas já criadas se intercalavam, de tal forma que:
     * Array3[0] = Array1[0]
@@ -26,20 +28,20 @@ Para o gráfico, foi utilizada a MÉDIA AGREGADA, ou seja, a média dos votos j�
 Faça o download do código utilizando GIT ou utilize o ZIP disponível aqui no portal do GitHub.
 
 ```sh
-git clone https://github.com/cosmicpb/2022-brelections-Apuration.git
+git clone https://github.com/cosmicpb/PresidentGraph.git
 
 ```
 
 Instale as dependências
 
 ```sh
-cd 2022-brelections-Apuration
+cd PresidentGraph
 pip install -r requirements.txt
 ```
 
 ## Usando o script:
 ```sh
-python3 .\apur.py
+python3 .\create_graph.py
 ```
 
 
@@ -47,7 +49,6 @@ Developed by Paulo Baldacim Junior
 https://www.linkedin.com/in/paulobaldacimjunior/
 https://twitter.com/memory_heap
 
+**FREE ASSANGE**
+
 **Free Software, Hell Yeah!**
-
-
-;
