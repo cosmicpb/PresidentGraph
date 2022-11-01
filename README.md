@@ -1,4 +1,4 @@
-
+# Convencendo com números seu amigo programador
 No dia 30/10/2022 um novo Presidente do Brasil foi eleito democraticamente.
 No mesmo instante, diversos apoiadores de seu principal adversário começaram a criar teorias de conspiração, principalmente depois de gráficos relacionados à apuração começaram a ser divulgados na interwebs.
 
@@ -14,7 +14,7 @@ Existem algumas premissas para esse projeto:
     
     * Segunda Array: Aleatória
 
-    
+
 4. Para cada candidato foi criada também uma terceira array, em que os valores das outras duas já criadas se intercalavam, de tal forma que:
     * Array3[0] = Array1[0]
     * Array3[1] = Array2[0]
