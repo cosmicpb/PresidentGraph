@@ -10,6 +10,7 @@ Existem algumas premissas para esse projeto:
 2. No gráfico temos o Candidato 1 (em azul) e o Candidato 2 (em vermelho). As primeiras zonas a serem contabilizadas foram as do Sul e as últimas do Nordeste, portanto com alta taxa para o Cand1 no início e alta taxa para o Cand2 no final.
 3. Para cada candidato foram criadas duas arrays com médias representando o valor final de votação:
     * Primeira Array: Aleatória Ordenada (Decrescente para o Cand1 e Crescente para o Cand2);
+    
     ![alt text](https://github.com/cosmicpb/PresidentGraph/blob/main/img/code.png?raw=true)
     
     ![alt text](https://github.com/cosmicpb/PresidentGraph/blob/main/img/mediacands.png?raw=true)
