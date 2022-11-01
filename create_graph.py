@@ -105,8 +105,33 @@ for line in cand2Final:
 x = np.arange(0, 2000)
 print(x[1999])
 
-plt.plot(x, candFinal, color='blue', label='Candidato 1')
-plt.plot(x, cand2Final, color='red', label='Candidato 2')
-plt.xlim([80,2000])
-plt.legend()
+
+
+forca = np.zeros(2000)
+cont = 1
+for line in forca:
+    forca[cont-1] = 100/cont
+    cont = cont + 1
+print(forca)
+
+
+# plt.plot()
+# plt.xlim([80,2000])
+# plt.ylim([0,100])
+# plt.legend()
+# plt.show()
+
+fig, ax = plt.subplots()
+ax.plot(x, candFinal, color='blue', label='Candidato 1')
+ax.plot(x, cand2Final, color='red', label='Candidato 2')
+ax.set_xlabel('Evolução da contagem')
+ax.set_ylabel('% de votos')
+# ax.set_xlim(80, 2000)
+# ax.set_ylim(0, 100)
+
+
+ax2 = ax.twinx()
+ax2.plot(x, forca, color='black', label='Força do voto')
+ax2.set_ylabel('Força de voto')
 plt.show()
+
