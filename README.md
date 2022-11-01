@@ -10,7 +10,9 @@ Existem algumas premissas para esse projeto:
 3. Para cada candidato foram criadas duas arrays com médias representando o valor final de votação:
     * Primeira Array: Aleatória Ordenada (Decrescente para o Cand1 e Crescente para o Cand2);
     ![alt text](https://github.com/cosmicpb/PresidentGraph/blob/main/img/code.png?raw=true)
+    
     ![alt text](https://github.com/cosmicpb/PresidentGraph/blob/main/img/mediacands.png?raw=true)
+    
     * Segunda Array: Aleatória
 4. Para cada candidato foi criada também uma terceira array, em que os valores das outras duas já criadas se intercalavam, de tal forma que:
     * Array3[0] = Array1[0]
@@ -23,7 +25,7 @@ Para o gráfico, foi utilizada a MÉDIA AGREGADA, ou seja, a média dos votos j�
 
 Há um terceiro gráfico gerado com a força de voto para cada contagem, ou seja, a primeira vale 100% dos votos, a segunda 50%, a terceira 33%, e assim por diante, seguindo a função:
 
-$$ forcVoto = 100/número se seções apuradas $$
+$$ forcVoto = {100 \over número de secoes apuradas} $$
 
 
 ## Instação
