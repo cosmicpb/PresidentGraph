@@ -1,5 +1,7 @@
 # Convencendo com números seu amigo programador
 ![Array sendo criada](https://github.com/cosmicpb/PresidentGraph/blob/main/img/flag.png?raw=true)
+
+
 No dia 30/10/2022 um novo Presidente do Brasil foi eleito democraticamente.
 No mesmo instante, diversos apoiadores de seu principal adversário começaram a criar teorias de conspiração, principalmente depois de gráficos relacionados à apuração começaram a ser divulgados na interwebs.
 
