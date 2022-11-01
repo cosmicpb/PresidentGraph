@@ -31,6 +31,10 @@ Há um terceiro gráfico gerado com a força de voto para cada contagem, ou seja
 
 $$ forcVoto = {100 \over número de secoes apuradas} $$
 
+Gráfico final:
+
+![Gráfico final](https://github.com/cosmicpb/PresidentGraph/blob/main/img/finalgraph.png?raw=true)
+
 
 ## Instação
 
