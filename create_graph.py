@@ -6,11 +6,9 @@ import csv
 
 ##CREATING SORTED RANDOM ARRAY
 cand1 = np.random.uniform(low=40.0, high=55.0, size=(1000,))
-
-
-
-
 cand1[::-1].sort()
+
+print('AVERAGE: ' + str(np.average(cand1)))
 
 ##MOVING TO EVEN INDEXES
 cand1T = np.empty(2000)
