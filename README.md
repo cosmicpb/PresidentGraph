@@ -51,6 +51,8 @@ Este código não demonstra a facilidade em se fraudar as urnas, mas ao contrár
 Uma das características do sistema eleitoral brasileiro é o voto eletrônico, portanto não faz sentido comparar com gráficos de apuração de outros países, principalmente nos EUA, em que a apuração é feita em parte eletronicamente e em parte manualmente, além de cada estado americano seguir seu próprio protocolo de apuração.
 
 
+# Quick Starting
+
 ## Instação
 
 Faça o download do código utilizando GIT ou utilize o ZIP disponível aqui no portal do GitHub.
