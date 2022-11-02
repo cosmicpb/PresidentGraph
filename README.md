@@ -74,9 +74,12 @@ pip install -r requirements.txt
 python3 .\create_graph.py
 ```
 
+## Contato:
 
 Developed by Paulo Baldacim Junior
+
 https://www.linkedin.com/in/paulobaldacimjunior/
+
 https://twitter.com/memory_heap
 
 **FREE ASSANGE**
