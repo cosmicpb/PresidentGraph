@@ -42,10 +42,13 @@ Gráfico final:
 
 ![Gráfico final](https://github.com/cosmicpb/PresidentGraph/blob/main/img/finalgraph.png?raw=true)
 
-## IMPORTANTE
+## IMPORTANTE 1
 Este código demonstra a facilidade em se criar, com apenas duas premissas, as condições necessárias para se criar este tipo de gráfico.
 
 Este código não demonstra a facilidade em se fraudar as urnas, mas ao contrário: qualquer hipótese que leve em consideração fraude nas urnas gera premissas extremamente complexas como "manipulação no TSE", "conspiração entre juristas e fiscais", além das próprias Forças Armadas que também participaram do processo Eleitoral. **Neste caso, esse conjunto de premissas complexas quebra a Navalha de Occam.**
+
+## IMPORTANTE 2
+Uma das características do sistema eleitoral brasileiro é o voto eletrônico, portanto não faz sentido comparar com gráficos de apuração de outros países, principalmente nos EUA, em que a apuração é feita em parte eletronicamente e em parte manualmente, além de cada estado americano seguir seu próprio protocolo de apuração.
 
 
 ## Instação
