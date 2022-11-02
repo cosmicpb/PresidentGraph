@@ -1,14 +1,21 @@
 # Convencendo com números seu amigo programador
 ![Array sendo criada](https://github.com/cosmicpb/PresidentGraph/blob/main/img/flag.png?raw=true)
 
+Você sabe o que é a **Navalha de Occam**?
+É um princípio científico que postula que entre um conjunto de hipóteses, a que for mais simples ou tiver o menor número de premissas é, normalmente, a verdadeira.
 
-No dia 30/10/2022 um novo Presidente do Brasil foi eleito democraticamente.
-No mesmo instante, diversos apoiadores de seu principal adversário começaram a criar teorias de conspiração, principalmente depois de gráficos relacionados à apuração começaram a ser divulgados na interwebs.
+No dia 30/10/2022 um novo Presidente do Brasil foi eleito democraticamente. No mesmo instante, diversos apoiadores de seu principal adversário começaram a criar teorias de conspiração, principalmente depois de gráficos relacionados à apuração começarem a ser divulgados na interwebs.
 
 Boa parte desses teóricos de conspiração diziam que o gráfico não apresentava uma "curva natural", ou seja, uma curva que não se adequasse a qualquer realidade de apuração mundial.
 
-Existem algumas premissas para esse projeto:
-1. Os votos são contados digitalmente, ou seja, a vazão de votos (número de votos contados por minuto) é constante;
+Este artigo tem como objetivo apresentar argumentos contra a conspiração de fraude nas urnas eleitorais em 2022, demonstrando a facilidade em se gerar um gráfico próximo ao obtido com a média agregada da apuração utilizando apenas duas premissas simples:
+
+1. Os votos são contados inicialmente em locais com maioria de um candidato (Candidato 1);
+2. Os votos são contados paralelamente, ou seja, diversas urnas são apuradas e contabilizadas ao mesmo tempo.
+
+
+Portanto:
+1. Os votos são contados digitalmente, ou seja, a vazão de votos (número de votos contados por minuto) cresce no início mas em suma é constante.
 2. No gráfico temos o Candidato 1 (em azul) e o Candidato 2 (em vermelho). As primeiras zonas a serem contabilizadas foram as do Sul e as últimas do Nordeste, portanto com alta taxa para o Cand1 no início e alta taxa para o Cand2 no final.
 3. Para cada candidato foram criadas duas arrays com médias representando o valor final de votação:
     * Primeira Array: Aleatória Ordenada (Decrescente para o Cand1 e Crescente para o Cand2);
@@ -18,7 +25,7 @@ Existem algumas premissas para esse projeto:
     * Segunda Array: Aleatória
 
 
-4. Para cada candidato foi criada também uma terceira array, em que os valores das outras duas já criadas se intercalavam, de tal forma que:
+4. Foi criada também uma terceira array, em que os valores das outras duas já criadas se intercalavam, de tal forma que:
     * Array3[0] = Array1[0]
     * Array3[1] = Array2[0]
     * Array3[2] = Array1[1]
