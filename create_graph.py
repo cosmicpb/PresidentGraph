@@ -2,13 +2,16 @@ from cProfile import label
 from grapheme import length
 import numpy as np
 import matplotlib.pyplot as plt
-import csv
+import gui
+
+gui.hellogui()
+
+
 
 ##CRIANDO ARRAY 1: ALEATÓRIA E ORDENADA DE 1000 ÍNDICES
 cand1 = np.random.uniform(low=40.0, high=55.0, size=(1000,))
 cand1[::-1].sort()
 
-print('AVERAGE: ' + str(np.average(cand1)))
 
 ##CRIANDO ARRAY 3: 2000 PONTOS, VAZIA
 cand1T = np.empty(2000)
@@ -76,7 +79,10 @@ it = 0
 for line in candFinal:
     cand2Final[it] = 100 - candFinal[it]
     it = it + 1
-
+print('--------------------------------')
+print('Votação final com as amostras criadas: ')
+print('Candidato 1: {avg1:.2f} % '.format(avg1=np.average(candFinal)))
+print('Candidato 2: {avg2:.2f} % '.format(avg2=np.average(cand2Final)))
 
 
 fig, ax = plt.subplots()
