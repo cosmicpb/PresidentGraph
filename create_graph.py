@@ -99,9 +99,9 @@ ax.set_ylabel('% de votos')
 # ax.set_ylim(0, 100)
 
 
-ax2 = ax.twinx()
-ax2.plot(x, forca, color='black', label='Força do voto')
-ax2.set_ylabel('Força de voto')
-ax2.legend()
+# ax2 = ax.twinx()
+# ax2.plot(x, forca, color='black', label='Força do voto')
+# ax2.set_ylabel('Força de voto')
+# ax2.legend()
 plt.show()
 
