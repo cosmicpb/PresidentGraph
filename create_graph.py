@@ -4,36 +4,36 @@ import numpy as np
 import matplotlib.pyplot as plt
 import csv
 
-##CREATING SORTED RANDOM ARRAY
+##CRIANDO ARRAY 1: ALEATÓRIA E ORDENADA DE 1000 ÍNDICES
 cand1 = np.random.uniform(low=40.0, high=55.0, size=(1000,))
 cand1[::-1].sort()
 
 print('AVERAGE: ' + str(np.average(cand1)))
 
-##MOVING TO EVEN INDEXES
+##CRIANDO ARRAY 3: 2000 PONTOS, VAZIA
 cand1T = np.empty(2000)
 
+##ADICIONANDO ARRAY 1 PARA ÍNDICES PARES DA ARRAY 3
 cont = 0
 for line in cand1:
     cand1T[cont*2] = float(line)
     cont = cont + 1
 
 
-
-##CREATING UNIFORM RANDOM ARRAY
+##CRIANDO ARRAY 2: ALEATÓRIA DE 1000 ÍNDICES
 cand1D = np.random.uniform(low=40.0, high=60.0, size=(1000,))
 
 
-#MOVING TO ODD INDEXES
+#ADICIONANDO ARRAY 2 PARA ÍNDICES ÍMPARES DA ARRAY 3
 cont = 0
 for line in cand1D:
     cand1T[cont*2-1] = float(line)
     cont = cont + 1
 
+#CRIANDO ARRAY PARA SOMA AGREGADA
+cand1S = np.zeros(2001)
 
-cand1S = np.zeros(2002)
-
-print(cand1S)
+# FAZENDO A SOMA AGREGADA
 cont2 = 0
 for line in cand1T:
     
@@ -41,8 +41,10 @@ for line in cand1T:
     cont2 = cont2 + 1
 
 
+## CRIANDO ARRAY PARA MÉDIA AGREGADA
+candcand1 = np.empty(2001)
 
-candcand1 = np.empty(2002)
+
 cont = 0
 for line in cand1S:
     candcand1[cont] = cand1S[cont]/(cont+1)
@@ -59,7 +61,7 @@ for line in candFinal:
 
 
 x = np.arange(0, 2000)
-# print(x[1999])
+
 
 
 
@@ -68,14 +70,6 @@ cont = 1
 for line in forca:
     forca[cont-1] = 100/cont
     cont = cont + 1
-# print(forca)
-
-
-# plt.plot()
-# plt.xlim([80,2000])
-# plt.ylim([0,100])
-# 
-# plt.show()
 
 cand2Final = np.zeros(2000)
 it = 0
@@ -83,10 +77,7 @@ for line in candFinal:
     cand2Final[it] = 100 - candFinal[it]
     it = it + 1
 
-# print('CAND 1: ------------------------------------------------')
-# print(candFinal)
-# print('CAND 2: ------------------------------------------------')
-# print(cand2Final)
+
 
 fig, ax = plt.subplots()
 ax.plot(x, candFinal, color='blue', label='Candidato 1')
