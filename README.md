@@ -4,10 +4,6 @@
 Você sabe o que é a **Navalha de Occam**?
 É um princípio científico que postula que entre um conjunto de hipóteses, a que for mais simples ou tiver o menor número de premissas é, normalmente, a verdadeira.
 
-No dia 30/10/2022 um novo segundo turno foi feito no Brasil, elegendo Luiz Inácio Lula da Silva como Presidente da República a partir de janeiro de 2023.. No mesmo instante, diversos apoiadores de seu principal adversário (Jair Messias Bolsonaro) começaram a levantar hipóteses, principalmente depois de gráficos relacionados à apuração começarem a ser divulgados na interwebs.
-
-Boa parte desses teóricos de conspiração diziam que o gráfico não apresentava uma "curva natural", ou seja, uma curva que não se adequasse a qualquer realidade de apuração mundial.
-
 Este artigo tem como objetivo apresentar argumentos contra a conspiração de fraude nas urnas eleitorais em 2022, demonstrando a facilidade em se gerar um gráfico próximo ao obtido com a média agregada da apuração utilizando apenas duas premissas simples:
 
 1. Os votos são contados inicialmente em locais com maioria de um candidato (Candidato 1);
